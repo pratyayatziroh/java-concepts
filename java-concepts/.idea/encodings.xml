@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/asynchronous/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/asynchronous/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

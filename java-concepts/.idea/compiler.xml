@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="networking" />
-        <module name="asynchronous" />
+        <module name="database" />
         <module name="thread" />
+        <module name="asynchronous" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
