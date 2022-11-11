@@ -5,7 +5,12 @@ package concepts.thread.core;
  */
 
 public class MultiThread extends Thread{
+    private final Thread thread;
+    public MultiThread(){
+        thread = Thread.currentThread();
+    }
+
     public void run(){
-        System.out.println(Thread.currentThread());
+
     }
 }

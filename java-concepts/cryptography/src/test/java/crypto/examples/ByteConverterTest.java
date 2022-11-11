@@ -21,6 +21,7 @@ public class ByteConverterTest {
     @Test
     public void getString(){
         var byteArr = converter.getByte("Hello I am Pratyay and I am having a great Day");
-        converter.getPlain(byteArr);
+        var str = converter.getPlain(byteArr);
+        System.out.println(str);
     }
 }

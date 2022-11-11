@@ -1,7 +1,6 @@
 package crypto.examples;
 
 import java.nio.charset.Charset;
-import java.util.Arrays;
 
 /**
  * @author Pratyay Ganguli
@@ -9,12 +8,21 @@ import java.util.Arrays;
 
 public class ByteConverter {
     public byte[] getByte(String str){
-        var byteArr =  str.getBytes(Charset.defaultCharset());
-        return byteArr;
+        try{
+            return str.getBytes(Charset.defaultCharset());
+        }
+        catch(Exception e){
+            if(e instanceof NullPointerException){
+                throw new RuntimeException("string value cannot be null or empty " + e.getMessage());
+            }
+            else{
+                throw new RuntimeException("Unknown error " + e.getMessage());
+            }
+        }
     }
 
     public String getPlain(byte [] byteArr){
-        var str = Arrays.toString(byteArr);
+        var str = new String(byteArr);
         return str;
     }
 }
