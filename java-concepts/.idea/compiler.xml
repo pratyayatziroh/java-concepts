@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cryptography" />
         <module name="networking" />
         <module name="database" />
         <module name="thread" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cyptography" target="17" />
       <module name="Thread" target="17" />
     </bytecodeTargetLevel>
   </component>

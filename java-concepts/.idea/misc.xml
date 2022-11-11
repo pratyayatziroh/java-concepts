@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Thread/pom.xml" />
+        <option value="$PROJECT_DIR$/cyptography/pom.xml" />
       </set>
     </option>
   </component>

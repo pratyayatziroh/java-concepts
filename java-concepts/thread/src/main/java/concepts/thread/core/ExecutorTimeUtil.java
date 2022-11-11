@@ -9,11 +9,9 @@ public class ExecutorTimeUtil {
         var time = System.nanoTime() / 1000000;
         return time;
     }
-
     public static Long getEpochNano(){
         return System.nanoTime();
     }
-
     public static Long getEpochMicroSeconds(){
         var time = System.nanoTime() / 1000;
         return time;
