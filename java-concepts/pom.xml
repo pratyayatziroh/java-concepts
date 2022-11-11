@@ -8,12 +8,26 @@
     <artifactId>java-concepts</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <profiles>
+        <profile>
+            <id>all</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <modules>
+                <module>Thread</module>
+            </modules>
+        </profile>
+    </profiles>
+
     <modules>
         <module>Thread</module>
         <module>thread</module>
         <module>networking</module>
         <module>asynchronous</module>
         <module>database</module>
+        <module>cryptography</module>
     </modules>
 
     <properties>
