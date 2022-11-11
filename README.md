@@ -5,9 +5,10 @@
 * Asynchronous
 * database
 * networking
+* crypto
 
 
-#### Crypto ####
+#### Crypto #### :
 
 ##### ByteArray ans String ####
 
@@ -17,7 +18,7 @@
   var retrieveMessage = new String(messageBytes);
 ```
 
-#### Thread ####  
+#### Thread #### : 
 
 Thread module contains multi-threading classes and some example codes tio understand the important concepts of thread.
 
