@@ -7,6 +7,16 @@
 * networking
 
 
+#### Crypto ####
+
+##### ByteArray ans String ####
+
+```
+  String message = "Meet me tonight at 9PM";
+  var messageBytes = message.getBytes(Charaset.defaultCharset());
+  var retrieveMessage = new String(messageBytes);
+```
+
 #### Thread ####  
 
 Thread module contains multi-threading classes and some example codes tio understand the important concepts of thread.
