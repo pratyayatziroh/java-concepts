@@ -1,8 +1,6 @@
 package concepts.thread.core;
 
 import concepts.thread.common.OperationTest;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -11,23 +9,29 @@ import org.junit.jupiter.api.Test;
 
 public class UserTimeTest {
     private final UserTime userTime;
+    private long startTime;
+
+    private long endTime;
 
     public UserTimeTest(){
         userTime = new UserTime();
     }
 
-    @AfterEach
+
     public void getStartTime(){
-        System.out.println(userTime.getTimeStamp());
+        startTime = userTime.getTimeStamp();
     }
 
     @Test
     public void call(){
+        getStartTime();
         new OperationTest().printMessage();
+        getEndTime();
+        System.out.println(endTime - startTime + " ms");
+
+    }
+    public void getEndTime(){
+        endTime = userTime.getTimeStamp();
     }
 
-    @BeforeEach
-    public void getEndTime(){
-        System.out.println(userTime.getTimeStamp());
-    }
 }

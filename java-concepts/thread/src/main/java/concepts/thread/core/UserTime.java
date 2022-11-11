@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
  */
 
 public class UserTime {
-    public String getTimeStamp(){
-        return Long.toString(System.currentTimeMillis());
+    public Long getTimeStamp(){
+        return System.currentTimeMillis();
     }
 }
