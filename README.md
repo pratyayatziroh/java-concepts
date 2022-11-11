@@ -13,6 +13,9 @@ Thread module contains multi-threading classes and some example codes tio unders
 
 Classes Present :
 
-`ExecutorTimeUtil` class `getEpochMilis()` which returns the current time in epoch milis. Methods invoked - `System.currentTimeMillis()` 
+`ExecutorTimeUtil` 
+
+class has a static method `getEpochMilis()` which returns the current time in epoch milis. 
+Methods internally invoked - `System.currentTimeMillis()` 
 
 
