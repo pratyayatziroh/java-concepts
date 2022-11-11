@@ -16,6 +16,7 @@
         <module>asynchronous</module>
         <module>database</module>
         <module>cryptography</module>
+        <module>utility</module>
     </modules>
 
     <properties>
